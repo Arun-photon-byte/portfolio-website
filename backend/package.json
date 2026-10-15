@@ -1,0 +1,22 @@
+{
+  "name": "company-website-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "vitest run --coverage"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "portfolio-website": "file:.."
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.9",
+    "supertest": "^7.3.1",
+    "vitest": "^2.1.9"
+  }
+}

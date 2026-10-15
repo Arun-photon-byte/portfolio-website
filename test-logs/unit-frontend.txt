@@ -1,0 +1,14 @@
+
+> company-website-frontend@1.0.0 test
+> vitest run --coverage *
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/react_practice/portfolio-website/frontend[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+[34m % [39m[2mCoverage report from [22m[33mv8[39m
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------

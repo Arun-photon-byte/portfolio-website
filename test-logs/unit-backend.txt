@@ -1,0 +1,27 @@
+
+> company-website-backend@1.0.0 test
+> vitest run --coverage *
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90mC:/react_practice/portfolio-website/backend[39m
+      [2mCoverage enabled with [22m[33mv8[39m
+
+[34m % [39m[2mCoverage report from [22m[33mv8[39m
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |       0 |        0 |       0 |       0 |                   
+ src               |       0 |        0 |       0 |       0 |                   
+  app.js           |       0 |        0 |       0 |       0 | 1-26              
+ src/api           |       0 |        0 |       0 |       0 |                   
+  contact.js       |       0 |        0 |       0 |       0 | 1-20              
+ src/db            |       0 |        0 |       0 |       0 |                   
+  contactStore.js  |       0 |        0 |       0 |       0 | 1-45              
+ src/services      |       0 |        0 |       0 |       0 |                   
+  ...actService.js |       0 |        0 |       0 |       0 | 1-21              
+ src/validation    |       0 |        0 |       0 |       0 |                   
+  contact.js       |       0 |        0 |       0 |       0 | 1-28              
+ tests             |       0 |        0 |       0 |       0 |                   
+  ...t.api.test.js |       0 |        0 |       0 |       0 | 1-79              
+  ...ation.test.js |       0 |        0 |       0 |       0 | 1-40              
+-------------------|---------|----------|---------|---------|-------------------

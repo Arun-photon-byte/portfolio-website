@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-website",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev -- --host 0.0.0.0\"",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend run test && npm --prefix frontend run test",
+    "test:e2e": "npm --prefix frontend run test:e2e",
+    "start": "npm --prefix backend run start"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.4",
+    "concurrently": "^9.0.1"
+  }
+}
